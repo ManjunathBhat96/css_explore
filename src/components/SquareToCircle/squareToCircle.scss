@@ -1,0 +1,29 @@
+.mainClass{
+  width: 100%;
+  .square{
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 150px;
+    animation: square-to-circle;
+    height: 150px;
+    // background-color: black;
+    border: 15px solid #337ab7;
+    animation-duration: 4s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+  }
+  @keyframes square-to-circle {
+    0%{
+      left: 200px;
+      border-radius: 0;
+    }
+    50%{
+      border-radius: 50%;
+      background: rgb(186, 98, 206);
+    }
+    100% {
+      left: 200px;
+      background: rgb(139, 139, 247);
+    }
+  }
+}

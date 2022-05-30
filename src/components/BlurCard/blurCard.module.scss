@@ -1,0 +1,40 @@
+.main{
+  display: flex;
+  .image {
+    height: 17.75rem;
+    width: 17.75rem;
+    border-radius: 2.5rem;
+    position: relative;
+    background-image: url('../../Image/HSB.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    .blurCard{
+      position: absolute;
+      top: 11rem;
+      height: 38%;
+      width: inherit;
+      border-radius: 0 0 2.5rem 2.5rem;
+      background: #ffffff;
+      opacity: 84%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .title{
+        font-size: 12px;
+        margin: 0.5rem;
+      }
+      .button{
+        padding: 0.5rem;
+        border-radius: 10px;
+        background: #4663be;
+        color: #ffffff;
+        font-weight: 100;
+        font-size: 1rem;
+        outline: none;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+  
+}
