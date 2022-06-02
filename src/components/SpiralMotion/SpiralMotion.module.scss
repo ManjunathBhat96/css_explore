@@ -1,0 +1,18 @@
+.spiral{
+  height: 250px;
+  width: 4px;
+  border-radius: 8px;
+  position: relative;
+  border: 1px solid;
+  background: rgb(227, 79, 227);
+  margin-bottom: 2rem;
+  border: none;
+  // transform: rotate(45deg);
+  
+  .circle{
+    position: absolute;
+    top: 0;
+    right:0;
+    background: red;
+  }
+}
